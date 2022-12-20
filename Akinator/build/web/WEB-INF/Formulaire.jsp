@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Formulaire
-    Created on : 19 déc. 2022, 15:53:36
-    Author     : stag
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
