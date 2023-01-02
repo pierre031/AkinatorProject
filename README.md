@@ -11,13 +11,19 @@ L'utilisateur pense à un animal et le programme doit le deviner.
 
 <p>
 A chaque tour, l'ordinateur a 2 possibilitées:
-    => il pose une question à laquelle l'utilisateur répond par oui ou non
-    => il propose une réponse
-        ==> si la réponse est excate, l'ordinateur a gagner
-        ==> si la réponse est fausse, l'utilisateur a gagner > l'ordinateur propose alors & l'utilisateur un formaulaire afin d'apprendre:
-            -> à quel animal pensait l'utilisateur
-            -> quelle question l'ordinateur aurait dû poser pour différencier la réponse fausse de l'animal de l'utilisateur
-            -> quelle est la réponse à cette question (oui/non)
+    <ul>
+    <li>=> il pose une question à laquelle l'utilisateur répond par oui ou non</li>
+    <li>=> il propose une réponse</li>
+    <ul>
+        <li>==> si la réponse est excate, l'ordinateur a gagner</li>
+        <li>==> si la réponse est fausse, l'utilisateur a gagner > l'ordinateur propose alors & l'utilisateur un formaulaire afin d'apprendre:</li>
+        <ul>
+            <li>-> à quel animal pensait l'utilisateur</li>
+            <li>-> quelle question l'ordinateur aurait dû poser pour différencier la réponse fausse de l'animal de l'utilisateur</li>
+            <li>-> quelle est la réponse à cette question (oui/non)</li>
+            </ul>
+    </ul>
+    </ul>
 </p>
 
 Au départ le programme ne connait qu'un seul animal: le chien.
