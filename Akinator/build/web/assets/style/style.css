@@ -1,0 +1,160 @@
+/* 
+    Created on : 21 déc. 2022, 18:13:56
+    Author     : pierre
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    align-self: center;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h1 > span {
+    font-size: 4rem;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    margin-right: 100px;
+}
+
+div > p {
+   font-size: 2rem;
+   margin-bottom: 35px;
+}
+
+a {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    border: 1px solid grey;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: lightgray;
+    border-radius: 25px;
+    transition: font-size 1000ms, color 500ms, background-color 1000ms;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    font-size: 2.2rem;
+    color: #fff;
+    background-color: blue;
+}
+
+footer {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div {
+    text-align: center;
+}
+
+.question {
+    font-size: 2rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin: 0 20px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.yes, .no, .victory, #replay>input {
+    transition: background-color 1000ms, color 400ms;
+}
+
+.yes:hover,
+.victory:hover, 
+#replay>input:hover {
+   background-color: green; 
+   color: #fff;
+}
+
+.no:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.victory {
+    display: block;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form div input {
+    padding: 15px 20px;
+}
+
+.form div input:hover {
+    cursor: text;
+}
+
+label {
+    padding: 5px 0 5px 15px;
+    align-self: center;
+}
+
+label + input {
+    width: 60%;
+}
+
+#replay {
+    align-self: center;
+}
+
+#replay > input {
+    font-size: 1.1rem;
+    padding: 20px 100px;
+    border-radius: 40px;
+}
+
+#replay > input:hover {
+    cursor: pointer;
+}
+

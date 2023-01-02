@@ -1,0 +1,31 @@
+@startuml Akinator
+
+Noeud -> Récupération racine arbre
+Proposition -> Null
+
+TANT QUE Proposition == Null
+FAIRE 
+    Poser question à l'utilisateur
+    Réponse -> Récupérer réponse utilisateur   
+    Noeud -> Avancer dans l'arbre en fonction de la réponse
+
+    SI noeud == question
+        question
+    SINON 
+        Proposition
+    FIN SI
+FIN TANT QUE
+
+Afficher Proposition
+Résultat -> Demander à l'utilisateur si Proposition == ok
+
+SI Résultat == true
+    Partie gagnée
+SINON
+    Proposition -> Demander Proposition à l'utilisateur
+    Question -> Demander Question discriminante à l'utilisateur
+    Réponse -> Demander Réponse à l'utilisateur
+    Ajouter Proposition + Question + Réponse dans l'arbre de décision
+FIN SI
+
+@enduml

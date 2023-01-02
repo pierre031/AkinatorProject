@@ -41,7 +41,9 @@ public class AkinatorServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.setCharacterEncoding("utf-8");
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         try {
             Item item;
             /**
@@ -131,6 +133,9 @@ public class AkinatorServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         //Test si on est sur la dernière question
         if (isLastQuestion == true) {
             isLastQuestion = false;
