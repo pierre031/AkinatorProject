@@ -3,7 +3,7 @@
 <h2 style="text-style: underline">Objectif:</h2>
 
 <p>
-    Réaliser une application web Java J2E de type Akinator
+    Réaliser une application web Java J2E de type Akinator <br>
     Aucune utilisation de BDD
 </p>
 
@@ -16,7 +16,7 @@ A chaque tour, l'ordinateur a 2 possibilitées:
         <li>il propose une réponse</li>
         <ul>
             <li>si la réponse est excate, l'ordinateur a gagner</li>
-            <li>si la réponse est fausse, l'utilisateur a gagner > l'ordinateur propose alors & l'utilisateur un formaulaire afin d'apprendre:</li>
+            <li>si la réponse est fausse, l'utilisateur a gagner => l'ordinateur propose alors à l'utilisateur un formulaire afin d'apprendre:</li>
             <ul>
                 <li>à quel animal pensait l'utilisateur</li>
                 <li>quelle question l'ordinateur aurait dû poser pour différencier la réponse fausse de l'animal de l'utilisateur</li>
@@ -27,9 +27,9 @@ A chaque tour, l'ordinateur a 2 possibilitées:
 </p>
 
 <p>
-    Au départ le programme ne connait qu'un seul animal: le chien.
-    Au fur et à mesure des tours, l'ordinateur apprend de plus en plus et connait de plus en plus de réponse.
+    Au départ le programme ne connait qu'un seul animal: le chien. <br>
+    Au fur et à mesure des tours, l'ordinateur apprend de plus en plus et connait de plus en plus de réponses.
 </p>
 
-Copyright (c) Eve, David S, Pierre
+Copyright (c) Eve, David S, Pierre <br>
 Formation CDA LDNR 2022-2023
